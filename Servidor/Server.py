@@ -1,5 +1,6 @@
 import socket  
-  
+
+#Crea un socket
 s = socket.socket()
 
 #La IP del servidor y el puerto a utilizar
