@@ -13,7 +13,7 @@ while True:
       #Envia el mensaje
       s.send(mensaje)  
       
-      #Cierraa la conexion por peticion
+      #Cierra la conexion por peticion
       if mensaje == "quit":  
          break  
 
