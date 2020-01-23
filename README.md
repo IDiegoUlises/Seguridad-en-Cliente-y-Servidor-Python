@@ -66,9 +66,8 @@ Al ver el mensaje que el cliente nos ha enviado podemos señalar que es diferent
 
 * **Duracion de una Sesion:** Una persona para ```escribir``` ese texto se demora aproximamente ```5 segundos``` y para enviarlo  en total se demora ```8 segundos``` aproximadamente cuando las peticiones se manda un tiempo que un **humano** no puede lograr es porque es un robot.
 
-
-
-
+# Imagen en Funcionamiento
+![alt text](https://github.com/IDiegoUlises/Servidor-y-Cliente-En-Python/blob/master/images/servidor-y-cliente-python-funcionando.png)
 
 
 
