@@ -6,7 +6,7 @@
 
    ```python
 while True:
-      socket.send(data);
+      socket.send(data)
 ```
 Usted **derribara el servidor** para proteger nuestro servidor debemos **limitar** la conexion que hemos acceptada se puede realizar de diferentes maneras.
 
@@ -19,7 +19,7 @@ Usted **derribara el servidor** para proteger nuestro servidor debemos **limitar
 
 **Ejemplo:**
    ```python
-int division = 0/0
+ int division = 0/0
 ```
 Por realiar esta division su servidor cerrara de manera inesperada y mostrara el siguiente error
    ```python
