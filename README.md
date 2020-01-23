@@ -50,13 +50,23 @@ socket.send(0x52)
 ```
 Al ver el mensaje que el cliente nos ha enviado podemos señalar que es diferente al que tendriamos que recibir esto es porque es una conexion malitencionada al documentar estas acciones podemos crear un algoritmo de **cortafuegos**.
 
-**Recuperacion de Cuenta:** Una persona puede obtener nuestras credenciales como **usuario** y **contraseña** por diversor maneras intentara bloquear al propetario de la cuenta para no permitirle el ingreso. Para impedir esto podemos **usar:**
+**Recuperacion de Cuenta:** Una persona puede obtener nuestras credenciales como **usuario** y **contraseña** por diversor maneras intentara bloquear al propetario de la cuenta para no permitirle el ingreso. Para impedir esto podemos **usar**
 
 * **Verificacion por SMS:** Para que este proceso de recuperacion sea seguro debemos darle proridad a los numeros telefonicos mas antiguos registrados.
 
 * **Verificacion por Ubicacion:** Podemos utilizar la ubicacion del usuario para poder comprobar el legitimo dueño del propietario de la cuenta.
 
-* **Pregunta Secreta:** Este metodo puede ser subestimado y en muchos casos lo pueden considerar anticuado pero no deben olvidar que este metodo en uso resulta ser uno de los mas confiable y de los mas seguros. 
+* **Pregunta Secreta:** Este metodo puede ser subestimado y en muchos casos lo pueden considerar anticuado pero no deben olvidar que este metodo en uso resulta ser uno de los mas confiable y de los mas seguros.
+
+**No Permitir la Entrada de Robots:** Un robot humano como **Sophia** de **Microsoft** puede entrar a nuestro servidor o un programa informatico como un **bot** puede hacer **spam** en nuestro sitio para evitar esto podemos utilizar.
+
+* **Captcha:** Es una prueba de la capacidad de una máquina para exhibir un comportamiento inteligente similar al de un ser humano puede ser por sonido o por imagen.
+
+* **Conducta Perfecta:** Una persona se equivoca en determinadas acciones una maquina no comete errores cuando se realizan peticiones perfectas puede ser considerado un robot.
+
+* **Duracion de una Sesion:** Una persona para ```escribir``` ese texto se demora aproximamente ```5 segundos``` y para enviarlo  en total se demora ```8 segundos``` aproximadamente cuando las peticiones se manda un tiempo que un **humano** no puede lograr es porque es un robot.
+
+
 
 
 
