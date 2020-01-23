@@ -19,7 +19,7 @@ Usted **derribara el servidor** para proteger nuestro servidor debemos **limitar
 
 **Ejemplo:**
    ```python
- int division = 0/0
+  int division = 0/0
 ```
 Por realiar esta division su servidor cerrara de manera inesperada y mostrara el siguiente error
    ```python
@@ -49,6 +49,14 @@ Con estos datos podemos diseñar nuestro **cortafuegos** para impedir las activi
 socket.send(0x52)
 ```
 Al ver el mensaje que el cliente nos ha enviado podemos señalar que es diferente al que tendriamos que recibir esto es porque es una conexion malitencionada al documentar estas acciones podemos crear un algoritmo de **cortafuegos**.
+
+**Recuperacion de Cuenta:** Una persona puede obtener nuestras credenciales como **usuario** y **contraseña** por diversor maneras intentara bloquear al propetario de la cuenta para no permitirle el ingreso. Para impedir esto podemos **usar:**
+
+* **Verificacion por SMS:** Para que este proceso de recuperacion sea seguro debemos darle proridad a los numeros telefonicos mas antiguos registrados.
+
+* **Verificacion por Ubicacion:** Podemos utilizar la ubicacion del usuario para poder comprobar el legitimo dueño del propietario de la cuenta.
+
+* **Pregunta Secreta:** Este metodo puede ser subestimado y en muchos casos lo pueden considerar anticuado pero no deben olvidar que este metodo en uso resulta ser uno de los mas confiable y de los mas seguros. 
 
 
 
