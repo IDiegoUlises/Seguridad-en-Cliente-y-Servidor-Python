@@ -15,7 +15,7 @@ Usted **derribara el servidor** para proteger nuestro servidor debemos **limitar
 * Bloquear la conexion por la direccion IP
 
 
-**Excepcion No Atrapada:** Su servidor puede tener un error de sofware que puede **derribar el servidor** como por ejemplo que suceda una **excepcion** que no es **atrapada** es importante que todos las excepcion sean atrapadas.
+**Excepcion no Atrapada:** Su servidor puede tener un error de sofware que puede **derribar el servidor** como por ejemplo que suceda una **excepcion** que no es **atrapada** es importante que todos las excepcion sean atrapadas.
 
 **Ejemplo:**
    ```python
@@ -26,14 +26,35 @@ Por realiar esta division su servidor cerrara de manera inesperada y mostrara el
 ZeroDivisionError: division by zero
 ```
 
-**Inyeccion De Datos:** Esto es cuando el cliente inyecta datos de manera fraudulenta para manipular los datos y recibir datos que estan restingidos.
+**Inyeccion de Datos:** Esto es cuando el cliente inyecta datos de manera fraudulenta para manipular los datos y para recibir datos que estan restingidos.
 
 **Ejemplo:**
    ```python
 socket.send(0)
 ```
 
-Usted manda un ```0``` no recibira datos si usted cambia este valor de este mensaje a un ```1 ``` usted recibira datos restringidos como una ```contraseña``` 
+Usted manda un ```0``` no recibira ningun dato si usted cambia este valor de este mensaje a un ```1 ``` usted recibira datos restringidos como una ```contraseña``` 
+
+**Actividad Sospechosa:** Debemos tener un algoritmo que detecte la actividad sospechosa para impedir cualquier accion maliciosa por parte de personas malitencionadas.
+
+**Pasos**
+* Documentar la actividad del usuario
+* Almacenar el documento en una base de datos
+* Analizar la actividad del usuario
+
+Con estos datos podemos diseñar nuestro **cortafuegos** para impedir las actividades maliciosas.
+
+**Ejemplo:**
+ ```python
+socket.send(0x52)
+```
+Al ver el mensaje que el cliente nos ha enviado podemos señalar que es diferente al que tendriamos que recibir esto es porque es una conexion malitencionada al documentar estas acciones podemos crear un algoritmo de **cortafuegos**.
+
+
+
+
+
+
 
 
 
