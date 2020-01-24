@@ -60,9 +60,9 @@ Al verificar el mensaje que el usuario nos ha enviado podemos señalar que es di
 
 **No Permitir la Entrada de Robots:** Un robot humano como **Sophia** de **Microsoft** puede entrar a nuestro servidor o un programa informatico como un **bot** puede hacer **spam** en nuestro sitio para evitar esto podemos utilizar.
 
-* **Captcha:** Es una prueba de la capacidad de una máquina para exhibir un comportamiento inteligente similar al de un ser humano puede ser por sonido o por imagen.
+* **Captcha:** Es una prueba de la capacidad de una máquina para exhibir un comportamiento inteligente similar al de un ser humano puede ser implementado en sonido o imagen.
 
-* **Conducta Perfecta:** Una persona se equivoca en determinadas acciones cuando realizan peticiones perfectas puede ser considerado un robot.
+* **Deteccion de Errores:** Una persona se equivoca en determinadas acciones cuando realizan peticiones perfectas puede ser considerado un robot.
 
 * **Duracion de una Sesion:** Una persona para ```escribir``` ese texto se demora aproximamente ```5 segundos``` y para enviarlo  en total se demora ```8 segundos``` aproximadamente cuando las peticiones se manda un tiempo que un **humano** no puede lograr es porque es un robot.
 
