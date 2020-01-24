@@ -50,7 +50,7 @@ socket.send(0x52)
 ```
 Al verificar el mensaje que el usuario nos ha enviado podemos señalar que es diferente al que tendriamos que recibir esto es porque es una conexion malitencionada al documentar estas acciones podemos crear un algoritmo de **cortafuegos**.
 
-**Recuperacion de Cuenta:** Una persona puede obtener nuestras credenciales como **usuario** y **contraseña** por diversor maneras intentara bloquear al propetario de la cuenta para no permitirle el ingreso para impedir esto podemos usar.
+**Recuperacion de Cuenta:** Una persona puede obtener nuestras credenciales como **usuario** y **contraseña** por diversas maneras intentara bloquear al propetario de la cuenta para no permitirle el ingreso para impedir esto podemos usar.
 
 * **Verificacion por SMS:** Para que este proceso de recuperacion sea seguro debemos darle proridad a los numeros telefonicos mas antiguos registrados.
 
