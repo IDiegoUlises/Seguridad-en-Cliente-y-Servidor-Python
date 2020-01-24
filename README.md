@@ -15,18 +15,18 @@ Usted **derribara el servidor** para proteger nuestro servidor debemos **limitar
 * Bloquear la conexion por la direccion IP
 
 
-**Excepcion no Atrapada:** Su servidor puede tener un error de sofware que puede **derribar el servidor** como por ejemplo que suceda una **excepcion** que no es **atrapada** es importante que todos las excepcion sean atrapadas.
+**Excepcion no Atrapada:** Su servidor puede tener un error de sofware que puede **derribar el servidor** como por ejemplo que suceda una **excepcion** que no es **atrapada** es importante que todos las excepciones sean atrapadas.
 
 **Ejemplo:**
    ```python
   int division = 0/0
 ```
-Por realiar esta division su servidor cerrara de manera inesperada y mostrara el siguiente error
+Por realizar esta division su servidor cerrara de manera inesperada y mostrara el siguiente error
    ```python
 ZeroDivisionError: division by zero
 ```
 
-**Inyeccion de Datos:** Esto es cuando el cliente inyecta datos de manera fraudulenta para manipular los datos y para recibir datos que estan restingidos.
+**Inyeccion de Datos:** Esto es cuando el cliente inyecta datos de manera fraudulenta para recibir datos que estan restingidos como **contraseñas**.
 
 **Ejemplo:**
    ```python
@@ -48,9 +48,9 @@ Con estos datos podemos diseñar nuestro **cortafuegos** para impedir las activi
  ```python
 socket.send(0x52)
 ```
-Al ver el mensaje que el cliente nos ha enviado podemos señalar que es diferente al que tendriamos que recibir esto es porque es una conexion malitencionada al documentar estas acciones podemos crear un algoritmo de **cortafuegos**.
+Al verificar el mensaje que el usuario nos ha enviado podemos señalar que es diferente al que tendriamos que recibir esto es porque es una conexion malitencionada al documentar estas acciones podemos crear un algoritmo de **cortafuegos**.
 
-**Recuperacion de Cuenta:** Una persona puede obtener nuestras credenciales como **usuario** y **contraseña** por diversor maneras intentara bloquear al propetario de la cuenta para no permitirle el ingreso. Para impedir esto podemos **usar**
+**Recuperacion de Cuenta:** Una persona puede obtener nuestras credenciales como **usuario** y **contraseña** por diversor maneras intentara bloquear al propetario de la cuenta para no permitirle el ingreso para impedir esto podemos usar.
 
 * **Verificacion por SMS:** Para que este proceso de recuperacion sea seguro debemos darle proridad a los numeros telefonicos mas antiguos registrados.
 
@@ -62,7 +62,7 @@ Al ver el mensaje que el cliente nos ha enviado podemos señalar que es diferent
 
 * **Captcha:** Es una prueba de la capacidad de una máquina para exhibir un comportamiento inteligente similar al de un ser humano puede ser por sonido o por imagen.
 
-* **Conducta Perfecta:** Una persona se equivoca en determinadas acciones una maquina no comete errores cuando se realizan peticiones perfectas puede ser considerado un robot.
+* **Conducta Perfecta:** Una persona se equivoca en determinadas acciones cuando realizan peticiones perfectas puede ser considerado un robot.
 
 * **Duracion de una Sesion:** Una persona para ```escribir``` ese texto se demora aproximamente ```5 segundos``` y para enviarlo  en total se demora ```8 segundos``` aproximadamente cuando las peticiones se manda un tiempo que un **humano** no puede lograr es porque es un robot.
 
