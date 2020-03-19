@@ -1,6 +1,6 @@
 # Servidor y Cliente en Python con Medidas de Seguridad
 
-**Funcion:** Crea un servidor y un usuario que se conecta a traves de un socket en donde se pueden enviar correos, mensajes, archivos, imagenes y documentos.
+**Funcion:** Crea un servidor y un usuario que se conecta a traves de un socket en donde se pueden enviar mensajes, archivos, imagenes y documentos.
 
 **Denegacion de Servicio:** Si usted manda datos infinitos como
 
