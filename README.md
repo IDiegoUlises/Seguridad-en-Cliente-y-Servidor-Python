@@ -47,7 +47,7 @@ Con estos datos podemos diseñar un **cortafuegos** para impedir las actividades
  ```python
 socket.send(0x52)
 ```
-Al verificar este mensaje recibido por el usuario se puede señalar que es diferente al que tendriamos que recibir esto es porque es una conexion fraudulenta al documentar estas acciones podemos crear un algoritmo de **cortafuegos** para rechazar estas conexiones malitencionadas.
+Al verificar este mensaje recibido por un cliente se puede señalar que es diferente al que tendriamos que recibir esto es porque es una conexion fraudulenta al documentar estas acciones podemos crear un algoritmo de **cortafuegos** para rechazar estas conexiones.
 
 **Recuperacion de Cuenta:** Una persona puede obtener nuestras credenciales como **usuario** y **contraseña** por diversas maneras intentara bloquear al propetario de la cuenta para no permitirle el ingreso para impedir esta accion podemos usar.
 
