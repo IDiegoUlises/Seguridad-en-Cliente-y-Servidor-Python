@@ -2,7 +2,7 @@
 
 **Funcion:** Crea un servidor y un usuario que se conecta a traves de un socket en donde se pueden enviar correos, mensajes, archivos, imagenes y documentos.
 
-**Denegacion de Servicio:** Si usted manda datos infinitos como por **ejemplo**
+**Denegacion de Servicio:** Si usted manda datos infinitos como
 
    ```python
 while True:
