@@ -63,7 +63,7 @@ Al verificar este mensaje recibido por un cliente se puede señalar que es difer
 
 * **Deteccion de Errores:** Una persona se equivoca en determinadas acciones cuando realizan peticiones con un patron perfecto puede ser considerado un robot.
 
-* **Duracion de una Sesion:** Una persona para ```escribir``` un mensaje se demora aproximamente ```5 segundos``` y para enviarlo se demora ```8 segundos``` aproximadamente cuando las peticiones se manda un tiempo imposble para un **humano** puede ser considerado un robot.
+* **Duracion de una Sesion:** Una persona para ```escribir``` un mensaje se demora aproximamente ```5 segundos``` y para enviarlo se demora ```8 segundos``` aproximadamente cuando las peticiones se manda un tiempo imposible para un **humano** puede ser considerado un robot.
 
 # Imagen en Funcionamiento
 ![alt text](https://github.com/IDiegoUlises/Servidor-y-Cliente-En-Python/blob/master/images/servidor-y-cliente-python-funcionando.png)
