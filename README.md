@@ -14,7 +14,7 @@ Usted **derribara el servidor** para proteger nuestro servidor debemos **limitar
 * Restrigir el exceso de conexiones  
 * Bloquear conexiones por direccion IP
 
-**Excepcion no Atrapada:** Su servidor puede tener un error de codigo que puede **derribar el servidor** como una **excepcion** que no es atrapada es importante que todas las excepciones sean atrapadas.
+**Excepcion no Atrapada:** Su servidor puede tener un error de codigo que puede **derribar el servidor** como una excepcion que no es atrapada es importante que todas las excepciones sean atrapadas.
 
 **Ejemplo:**
    ```python
